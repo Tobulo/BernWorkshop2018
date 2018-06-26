@@ -62,7 +62,7 @@ def main():
 
         attendee_name = attendee.rstrip()
         print("|" + "|".join([attendee_name,
-                              url_maker(ip_addr, rstudio_user_port)]
+                             "[rstudio](" + url_maker(ip_addr, rstudio_user_port) + ")"]
                              ) + "|")
         
         rstudio_user_port += 1
