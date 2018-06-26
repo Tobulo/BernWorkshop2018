@@ -61,7 +61,7 @@ def main():
                   #" -p {}:22 -p {}:80 -p {}:443 ".format(ssh_user_port, apache_user_port, gateone_user_port) +
                   #" -p {}:22 -p {}:80 -p {}:443 ".format(ssh_user_port, apache_user_port, gateone_user_port) +
                   " -p {}:8787 ".format(ssh_user_port) + #rstudio port actually
-                  " --name trinity_{} -d {}".format(user, docker_image))
+                  " --name rstudio_{} -d {}".format(user, docker_image))
         
         #subprocess.check_output(cmd)
         
