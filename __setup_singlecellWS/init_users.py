@@ -12,9 +12,10 @@ logging.basicConfig(stream=sys.stderr, level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 
-docker_image = "trinityctat/berlin2018"
+docker_image = "trinityctat/2018_bern"
 
-resources_dir = "/data/resources/workshop_shared/shared"
+resources_dir = "/data/SINGLE_CELL/single_cell_data_ro"
+
 def main():
 
     parser = argparse.ArgumentParser(description="instantiate user spaces", formatter_class=argparse.ArgumentDefaultsHelpFormatter)
