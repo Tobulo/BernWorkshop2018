@@ -1,0 +1,6 @@
+[submodule "__setup_singlecellWS/2018_scWorkshop"]
+	path = __setup_singlecellWS/2018_scWorkshop
+	url = https://github.com/TimothyTickle/2018_scWorkshop.git
+[submodule "__setup_singlecellWS/2018_scWorkshop.wiki"]
+	path = __setup_singlecellWS/2018_scWorkshop.wiki
+	url = https://github.com/TimothyTickle/2018_scWorkshop.wiki.git
